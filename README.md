@@ -32,8 +32,11 @@ and the infrastructure to run them — then ship and keep them alive in prod.
   toolkit for updating **1C / 1Enterprise** nomenclature prices from supplier
   price-lists: CSV parser → Jaccard matcher with ambiguity detection → diff
   report → retrying 1C HTTP client. Dry-run by default, 33 passing tests.
+- **[realtime-team-chat](https://github.com/demonewgenij-maker/realtime-team-chat)** —
+  compact realtime team chat (mini Slack/Telegram): FastAPI + WebSocket hub +
+  SQLite + JWT auth, with a vanilla-JS PWA frontend. Parameterized SQL,
+  XSS-safe rendering, 18 tests including real WebSocket delivery.
 
 ### Currently
-Growing this portfolio with more sanitized, from-scratch projects (a
-self-hosted team chat / messenger, LLM/RAG assistant) that mirror real
-production work.
+Growing this portfolio with more sanitized, from-scratch projects (an LLM/RAG
+assistant, an n8n custom node) that mirror real production work.
