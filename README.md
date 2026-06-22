@@ -40,3 +40,6 @@ and the infrastructure to run them — then ship and keep them alive in prod.
 ### Currently
 Growing this portfolio with more sanitized, from-scratch projects (an LLM/RAG
 assistant, an n8n custom node) that mirror real production work.
+
+### Contact
+- Telegram: [@JoniBlack05](https://t.me/JoniBlack05)
