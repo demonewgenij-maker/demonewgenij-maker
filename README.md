@@ -22,11 +22,13 @@ and the infrastructure to run them — then ship and keep them alive in prod.
 `Python` · `FastAPI` · `python-telegram-bot` · `n8n` · `Docker` ·
 `SQLite` · `WebSocket` · `LLM / RAG` · `REST APIs`
 
-### Currently
-Building a public portfolio of sanitized, from-scratch projects that mirror
-real production work. Repositories coming soon — watch this space.
+### Projects
+- **[telegram-bot-boilerplate](https://github.com/demonewgenij-maker/telegram-bot-boilerplate)** —
+  production-minded python-telegram-bot (v21) starter: clean handler layout,
+  drill-down inline menus, env-only config, a heartbeat/`/health` watchdog
+  endpoint and a pytest suite. A sanitized distillation of patterns from many
+  bots I've shipped.
 
-<!--
-This profile is intentionally minimal for now and will grow with
-real, sanitized portfolio projects.
--->
+### Currently
+Growing this portfolio with more sanitized, from-scratch projects (LLM/RAG
+assistant, n8n custom node) that mirror real production work.
