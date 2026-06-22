@@ -28,7 +28,12 @@ and the infrastructure to run them — then ship and keep them alive in prod.
   drill-down inline menus, env-only config, a heartbeat/`/health` watchdog
   endpoint and a pytest suite. A sanitized distillation of patterns from many
   bots I've shipped.
+- **[onec-price-updater](https://github.com/demonewgenij-maker/onec-price-updater)** —
+  toolkit for updating **1C / 1Enterprise** nomenclature prices from supplier
+  price-lists: CSV parser → Jaccard matcher with ambiguity detection → diff
+  report → retrying 1C HTTP client. Dry-run by default, 33 passing tests.
 
 ### Currently
-Growing this portfolio with more sanitized, from-scratch projects (LLM/RAG
-assistant, n8n custom node) that mirror real production work.
+Growing this portfolio with more sanitized, from-scratch projects (a
+self-hosted team chat / messenger, LLM/RAG assistant) that mirror real
+production work.
