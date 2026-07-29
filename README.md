@@ -2,6 +2,8 @@
 
 **AI Automation & Python Integration Engineer**
 
+My part is the ideas and design, AI's part is the routine code.
+
 I build production automations end-to-end: Telegram/chat bots, workflow
 automation (n8n), LLM-powered assistants (RAG, agents), system integrations
 and the infrastructure to run them — then ship and keep them alive in prod.
@@ -38,8 +40,9 @@ and the infrastructure to run them — then ship and keep them alive in prod.
   XSS-safe rendering, 18 tests including real WebSocket delivery.
 
 ### Currently
-Growing this portfolio with more sanitized, from-scratch projects (an LLM/RAG
-assistant, an n8n custom node) that mirror real production work.
+Shipping automations day to day — chat bots, 1C/ERP price and stock
+integrations, n8n workflows and the infra that keeps them running.
+The repos here are sanitized, from-scratch versions of that work.
 
 ### Contact
 - Telegram: [@JoniBlack05](https://t.me/JoniBlack05)
