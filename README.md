@@ -4,25 +4,35 @@
 
 My part is the ideas and design, AI's part is the routine code.
 
-I build production automations end-to-end: Telegram/chat bots, workflow
-automation (n8n), LLM-powered assistants (RAG, agents), system integrations
-and the infrastructure to run them — then ship and keep them alive in prod.
+I build production automations end-to-end: chat bots, LLM assistants and
+agents, workflow automation (n8n), 1C/ERP integrations, e-commerce sites —
+and the infrastructure that keeps all of it alive in prod. Daily driver:
+Claude Code + Python.
 
 ### What I do
-- 🤖 **Bots & assistants** — Telegram (python-telegram-bot) and custom chat-bot
-  platforms; from one-off helpers to multi-feature production bots with
-  inline menus, drill-down flows and watchdog-based reliability.
+- 🤖 **Bots & assistants** — Telegram (python-telegram-bot) and custom
+  chat-bot platforms; a fleet of production bots for a trading company:
+  price-list updaters, restock and order helpers, a roofing-materials
+  calculator, an LLM assistant that answers questions from 1C data.
+- 🧠 **LLM / agents** — RAG, semantic search, multi-provider LLM routing,
+  MCP servers (incl. one for 1C), agent workflows — plus what makes them
+  shippable: golden-query regression gates, quality scoring, pytest suites.
 - 🔗 **Automation & integration** — n8n workflows, REST/API integrations,
-  data pipelines (PDF/Excel parsing → matching → loading into business systems).
-- 🧠 **LLM / AI** — RAG, semantic search, multi-provider LLM routing,
-  agentic workflows.
+  data pipelines (PDF/Excel price-lists → parsing → fuzzy matching →
+  loading into 1C), scrapers with anti-bot handling.
+- 🛒 **E-commerce / web** — hands-on with a live WordPress + WooCommerce
+  store (2.5k products, 10k variations): catalog and product pages,
+  landing hubs, price/stock sync from 1C, image processing, caching and
+  TTFB fixes, Yandex Metrika/Webmaster, SEO hygiene — always via
+  reversible steps with backups, never touching the theme.
 - ⚙️ **Backend** — Python, FastAPI, SQLite, WebSockets, PWA + web-push.
-- 🛠️ **DevOps** — Docker, reverse proxies, hot-deploy, networking,
-  scheduled-task / service supervision.
+- 🛠️ **DevOps** — Docker, Traefik/nginx, VPS networking and proxies,
+  hot-deploy, watchdogs and scheduled-task supervision, cron/systemd timers.
 
 ### Tech
-`Python` · `FastAPI` · `python-telegram-bot` · `n8n` · `Docker` ·
-`SQLite` · `WebSocket` · `LLM / RAG` · `REST APIs`
+`Python` · `FastAPI` · `python-telegram-bot` · `n8n` · `Claude Code` ·
+`MCP` · `LLM / RAG` · `Docker` · `SQLite` · `WebSocket` · `REST APIs` ·
+`WordPress / WooCommerce` · `1C`
 
 ### Projects
 - **[telegram-bot-boilerplate](https://github.com/demonewgenij-maker/telegram-bot-boilerplate)** —
@@ -40,9 +50,12 @@ and the infrastructure to run them — then ship and keep them alive in prod.
   XSS-safe rendering, 18 tests including real WebSocket delivery.
 
 ### Currently
-Shipping automations day to day — chat bots, 1C/ERP price and stock
-integrations, n8n workflows and the infra that keeps them running.
-The repos here are sanitized, from-scratch versions of that work.
+Running ~10 bots and assistants in production for one trading company
+(price-list bots for several suppliers, order/restock helpers, an LLM
+assistant over 1C with a regression gate), an internal team messenger,
+a task-manager PWA, and the company's WooCommerce storefront — plus n8n,
+monitoring and the infra behind it. The repos here are sanitized,
+from-scratch versions of that work.
 
 ### Contact
 - Telegram: [@JoniBlack05](https://t.me/JoniBlack05)
