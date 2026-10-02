@@ -22,7 +22,7 @@ Claude Code + Python.
   data pipelines (PDF/Excel price-lists → parsing → fuzzy matching →
   loading into 1C), scrapers with anti-bot handling.
 - 🛒 **E-commerce / web** — hands-on with a live WordPress + WooCommerce
-  store (2.5k products, 10k variations): catalog and product pages,
+  store (3.5k products, 12.6k variations): catalog and product pages,
   landing hubs, price/stock sync from 1C, image processing, caching and
   TTFB fixes, Yandex Metrika/Webmaster, SEO hygiene — always via
   reversible steps with backups, never touching the theme.
