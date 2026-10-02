@@ -12,8 +12,9 @@ Claude Code + Python.
 ### What I do
 - 🤖 **Bots & assistants** — Telegram (python-telegram-bot) and custom
   chat-bot platforms; a fleet of production bots for a trading company:
-  price-list updaters, restock and order helpers, a roofing-materials
-  calculator, an LLM assistant that answers questions from 1C data.
+  price-list updaters, restock and order helpers, a contract-drafting bot,
+  an accountant's helper, a roofing-materials calculator, an LLM assistant
+  that answers questions from 1C data.
 - 🧠 **LLM / agents** — RAG, semantic search, multi-provider LLM routing,
   MCP servers (incl. one for 1C), agent workflows — plus what makes them
   shippable: golden-query regression gates, quality scoring, pytest suites.
@@ -50,9 +51,10 @@ Claude Code + Python.
   XSS-safe rendering, 18 tests including real WebSocket delivery.
 
 ### Currently
-Running ~10 bots and assistants in production for one trading company
-(price-list bots for several suppliers, order/restock helpers, an LLM
-assistant over 1C with a regression gate), an internal team messenger,
+Running ~15 bots and assistants in production for one trading company
+(price-list bots for 8 suppliers, order/restock helpers, contract and
+accounting helpers, an LLM assistant over 1C with a regression gate),
+an internal team messenger,
 a task-manager PWA, and the company's WooCommerce storefront — plus n8n,
 monitoring and the infra behind it. The repos here are sanitized,
 from-scratch versions of that work.
