@@ -6,8 +6,7 @@ My part is the ideas and design, AI's part is the routine code.
 
 I build production automations end-to-end: chat bots, LLM assistants and
 agents, workflow automation (n8n), 1C/ERP integrations, e-commerce sites —
-and the infrastructure that keeps all of it alive in prod. Daily driver:
-Claude Code + Python.
+and the infrastructure that keeps all of it alive in prod.
 
 ### What I do
 - 🤖 **Bots & assistants** — Telegram (python-telegram-bot) and custom
@@ -31,7 +30,7 @@ Claude Code + Python.
   hot-deploy, watchdogs and scheduled-task supervision, cron/systemd timers.
 
 ### Tech
-`Python` · `FastAPI` · `python-telegram-bot` · `n8n` · `Claude Code` ·
+`Python` · `FastAPI` · `python-telegram-bot` · `n8n` ·
 `MCP` · `LLM / RAG` · `Docker` · `SQLite` · `WebSocket` · `REST APIs` ·
 `WordPress / WooCommerce` · `1C`
 
